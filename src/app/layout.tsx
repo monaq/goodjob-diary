@@ -33,6 +33,12 @@ export default function RootLayout({
                 </Link>
                 <div className="flex items-center gap-4">
                   <Link
+                    href="/calendar"
+                    className="text-gray-600 hover:text-[var(--primary-orange)] transition-colors"
+                  >
+                    📅 캘린더
+                  </Link>
+                  <Link
                     href="/write"
                     className="text-gray-600 hover:text-[var(--primary-orange)] transition-colors"
                   >

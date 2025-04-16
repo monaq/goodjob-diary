@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm run --parallel dev:*",
-    "dev:next": "next dev",
-    "dev:supabase": "supabase start",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,9 +19,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "css-loader": "^7.1.2",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "postcss": "^8",
+    "postcss-loader": "^8.1.1",
+    "postcss-nesting": "^13.0.1",
+    "style-loader": "^4.0.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-orange: #FFA07A;
+  --background-cream: #FFF5E1;
+  --accent-blue: #AEDFF7;
+  --accent-green: #C5E1A5;
+}
+
 @layer base {
   body {
     @apply bg-background-cream text-gray-800;

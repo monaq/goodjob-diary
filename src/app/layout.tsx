@@ -33,7 +33,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-[var(--accent-blue)] text-gray-800 p-4 mt-auto">
           <div className="container mx-auto text-center">
-            <p>© 2024 참잘했어요. All rights reserved.</p>
+            <p>© 2025 참잘했어요. All rights reserved.</p>
           </div>
         </footer>
       </body>

@@ -22,6 +22,7 @@ export default function WritePage() {
             content: content.trim(),
             user_id: 'user-1', // TODO: 실제 사용자 ID로 변경
             created_at: new Date().toISOString(),
+            status: 'pending',
           },
         ]);
 

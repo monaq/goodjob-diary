@@ -5,10 +5,12 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-export interface Diary {
-  id: string;
-  content: string;
+export type Diary = {
+  id: number;
   created_at: string;
-  ai_comment?: string;
+  content: string;
+  ai_comment: string | null;
+  ai_commented_at: string | null;
+  status: 'pending' | 'completed';
   user_id: string;
-} 
+}; 
